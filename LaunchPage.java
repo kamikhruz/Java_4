@@ -1,6 +1,6 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JFrame;
+
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -31,6 +31,7 @@ public class LaunchPage implements ActionListener{
         if (e.getSource()==myButton) {
             frame.dispose();
             NewWindow myWindow = new NewWindow();
+            myWindow.frame.setVisible(true);
         }
     }
 }
