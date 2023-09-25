@@ -19,7 +19,7 @@ public class NewWindow {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420, 420);
         frame.setLayout(null);
-        frame.setVisible(true);
+        frame.setVisible(false);
 
 
     }
