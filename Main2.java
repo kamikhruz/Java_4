@@ -18,6 +18,7 @@ public class Main2 {
 
         //new MyFrame6();
 
-        new MyFrame7();
+        //new MyFrame7();
+        new MyFrame8();
     }
 }
