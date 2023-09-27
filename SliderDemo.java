@@ -28,12 +28,14 @@ public class SliderDemo  implements ChangeListener{
 
         slider.setPaintLabels(true);
         slider.setFont(new Font("MV Boli",Font.PLAIN,15));
-        label.setFont(new Font("MV Boli",Font.PLAIN,2));
+        label.setFont(new Font("MV Boli",Font.PLAIN,25));
 
         slider.setOrientation(SwingConstants.VERTICAL);
         //slider.setOrientation(SwingConstants.HORIZONTAL);
 
         label.setText("Celsius = "+slider.getValue()); 
+
+        slider.addChangeListener(this);
 
         panel.add(slider);
         panel.add(label);
@@ -49,6 +51,7 @@ public class SliderDemo  implements ChangeListener{
 
     public void stateChanged(ChangeEvent e){
 
+        label.setText("Celsius = "+slider.getValue()); 
     }
     
 }

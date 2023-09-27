@@ -107,6 +107,27 @@ new MyFrame3();
 //JSlider = GUI component that lets the user enter a value by using an adjustable sliding knob on a track
 
 SliderDemo sliderDemo = new SliderDemo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//progress bar = visual aid to let the user know that an operation is processing 
+
+new ProgressBarDemo();
        
     }
 }
