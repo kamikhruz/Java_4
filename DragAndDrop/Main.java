@@ -70,6 +70,33 @@ public class Main {
         MyGenericClass<String> myString = new MyGenericClass<>("Helllo");
 
         System.out.println(myDouble.getValue());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Bounded types = you can create the objects of a generic class to have data of specific derived types ex. Number
     }
 
     public static <Thing> void displayArray(Thing[] array){
